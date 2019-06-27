@@ -1,0 +1,69 @@
+::-webkit-input-placeholder{
+    text-align: center;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0b132b,#3a506b) ;
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+}
+
+.avatar{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
+h1{
+    color: white;
+    font-family: Segoe UI;
+}
+
+a{
+    color: white;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    top: -10px;
+}
+
+text{
+    font-family: Segoe UI;
+}
+
+input.email, input.password{
+    width: 239px;
+    height: 42px;
+    font-size: 18px;
+}
+
+input.login{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+}
+
+input.signup{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #7FC4FD;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+}

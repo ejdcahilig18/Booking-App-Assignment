@@ -1,0 +1,47 @@
+h2,p{
+    color: white;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+input.firstname,input.lastname,input.email,input.password,input.repeatpassword{
+    width: 279px;
+    height: 42px;
+    font-size: 16px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0b132b,#3a506b);
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+}
+
+text{
+    font-family: Segoe UI;
+}
+
+input.createaccount{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+}
+
+a{
+    color: white;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    top: -10px;
+}

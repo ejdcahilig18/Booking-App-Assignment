@@ -1,0 +1,42 @@
+h2,p{
+    color: white;
+    font-family: Segoe UI;
+}
+
+input.subject{
+    width: 279px;
+    height: 42px;
+    font-size: 16px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+textarea.entermessage{
+    width: 279px;
+    height: 210px;
+    font-size: 16px;
+    font-family: Segoe UI;
+    font-weight: bold;
+    text-align: top;
+}
+
+input.submit{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+}
+
+a.signout{
+    color: white;
+    font-size: 10px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    float: right;
+}
