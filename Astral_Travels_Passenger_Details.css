@@ -1,0 +1,102 @@
+h2,p{
+    color: white;
+    font-family: Segoe UI;
+}
+
+a.signout{
+    color: white;
+    font-size: 10px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    float: right;
+}
+
+a.addpassenger{
+    color: white;
+    font-size: 12px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0b132b,#3a506b) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Segoe UI;
+}
+
+input.viewflightdetails{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+
+}
+
+.passengerdetails{
+    width: 317px;
+    height: 435px;
+    background: #7FC4FD;
+    color: #000;
+    top: 510px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+input.firstname,input.lastname,input.emailaddress,input.contactnumber,input.seatnumber{
+    width: 279px;
+    height: 42px;
+    font-size: 16px;
+    font-family: Segoe UI;
+    font-weight: bold;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: 000000;
+    color: white;
+    text-align: center;
+ } 
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* a.left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  } */
+
+  a.center {
+    position: fixed;
+    bottom: 25;
+    right: 0;
+    width: 300px;
+  } 
+
+  a.right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+  }
