@@ -40,3 +40,12 @@ a.signout{
     font-weight: Bold;
     float: right;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0b132b,#3a506b) ;
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+}
