@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0b132b,#3a506b) ;
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+}
+
+text{
+    font-family: Segoe UI;
+}
+
+input.home{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    position: relative;
+    top: -60px;
+}
+
+a.signout{
+    color: white;
+    font-size: 10px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    float: right;
+}
+
+.downloadticket{
+    top: -95px;
+    border-radius: 20px;
+    position: relative;
+}
+

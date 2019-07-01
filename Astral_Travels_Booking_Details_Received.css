@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#0b132b,#3a506b) ;
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+}
+
+.avatar{
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+}
+
+h2{
+    color: white;
+    font-family: Segoe UI;
+}
+
+a{
+    color: white;
+    position: relative;
+    font-size: 12px;
+    font-weight: bold;
+    top: -10px;
+}
+
+p{
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    text-align: center;
+}
+
+text{
+    font-family: Segoe UI;
+}
+
+input.viewticket{
+    border: none;
+    outline: none;
+    width: 203px;
+    height: 48px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+}
+
+a.signout{
+    color: white;
+    font-size: 10px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    float: right;
+}
