@@ -1,7 +1,7 @@
 ::-webkit-input-placeholder{
     text-align: center;
     font-weight: bold;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 body{
@@ -10,7 +10,7 @@ body{
     background-image: linear-gradient(#0b132b,#3a506b) ;
     background-size: cover;
     background-position: center;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .avatar{
@@ -33,7 +33,7 @@ a{
 }
 
 text{
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 input.email, input.password{
@@ -51,7 +51,7 @@ input.login{
     color: #000;
     font-size: 18px;
     border-radius: 20px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
     font-weight: Bold;
 }
 
@@ -64,6 +64,6 @@ input.signup{
     color: #000;
     font-size: 18px;
     border-radius: 20px;
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
     font-weight: Bold;
 }

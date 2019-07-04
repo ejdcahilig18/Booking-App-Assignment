@@ -53,3 +53,11 @@ a.signout{
     font-weight: Bold;
     float: right;
 }
+
+a.back{
+    color: white;
+    font-size: 10px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    float: left;
+}

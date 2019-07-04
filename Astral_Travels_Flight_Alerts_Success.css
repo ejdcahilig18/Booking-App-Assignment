@@ -11,7 +11,20 @@ text{
     font-family: Segoe UI;
 }
 
-input.selectpayment{
+.trigger{
+    border: none;
+    outline: none;
+    width: 210px;
+    height: 48px;
+    background: #7FC4FD;
+    color: #000;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: 'Segoe UI';
+    font-weight: Bold;
+}
+
+input.home{
     border: none;
     outline: none;
     width: 210px;
@@ -22,6 +35,8 @@ input.selectpayment{
     border-radius: 20px;
     font-family: Segoe UI;
     font-weight: Bold;
+    top: 20px;
+    position: relative;
 }
 
 a.signout{
@@ -32,10 +47,3 @@ a.signout{
     float: right;
 }
 
-a.back{
-    color: white;
-    font-size: 10px;
-    font-family: Segoe UI;
-    font-weight: Bold;
-    float: left;
-}

@@ -1,24 +1,50 @@
-.modal{
+/* .modal {
     margin: auto;
     display: block;
     position: relative;
     left: 0;
-    top: 0;
-    width: 375px;
-    height: 1148px;
-    background-color: #BCE0FD;
+    top: -475px;
+    width: 280px;
+    height: 272px;
+    background-color: white;
     opacity: 0;
     visibility: hidden;
     transform: scale(1.1);
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 1000;
+} */
+
+.ok {
+    border: gray;
+    outline: none;
+    width: 144px;
+    height: 34px;
+    background: #5BC0BE;
+    color: #000;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    position: relative;
 }
 
-img.seats{
-    width: 253px;
-    height: 35px;
+h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
 }
 
-.close-button {
+a, p, .description {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a {
+    color: #009688;
+    text-decoration: none;
+}
+
+/* .close-button {
     float: right;
     width: 1.5rem;
     line-height: 1.5rem;
@@ -38,15 +64,4 @@ img.seats{
     visibility: visible;
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
-}
-
-.trigger{
-    position: relative;
-    top: 475px;
-    background: none;
-    border: none;
-    font-family: 'Segoe UI';
-    font-size: 12px;
-    color: white;
-    font-weight: bold;
-}
+} */

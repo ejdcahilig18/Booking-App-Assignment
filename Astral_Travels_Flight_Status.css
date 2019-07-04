@@ -11,7 +11,7 @@ text{
     font-family: Segoe UI;
 }
 
-input.flightalerts{
+.trigger{
     border: none;
     outline: none;
     width: 210px;
@@ -35,6 +35,8 @@ input.home{
     border-radius: 20px;
     font-family: Segoe UI;
     font-weight: Bold;
+    top: -270px;
+    position: relative;
 }
 
 a.signout{

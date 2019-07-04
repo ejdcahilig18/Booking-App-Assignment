@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Astral Travels - Flight Status</title>
+        <link rel="stylesheet" type="text/css" href="Astral_Travels_Flight_Alerts_Success.css">
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+        <link rel="stylesheet" type="text/css" href="modal3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+    
+    $(function(){
+        $("#mmodal .close").click();
+    });
+    
+</script>
+    </head>
+    <body>
+            <div id="myModal" class="modal fade" width="280px" height="272">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <div>
+                                            <br>
+                                            <center>
+                                                <img border="0" src="Group 297.png" class="checkmark">
+                                            
+                                            <br>
+                                            <p>
+                                                <div class="description">Success!<br>You'll be receiving flight alerts<br>on your e-mail. Make sure to<br>check your e-mail for the<br>updates of your flight.</div>
+                                            </p>
+                                            <br>
+                                            <br>
+                                            <form action="/Astral_Travels_Flight_Alerts_Success.html">
+                                               <input data-dismiss="modal" type="submit" name="" value="OK" class="ok"></center>
+                                            </form>
+                                        </div>
+                                    </div>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+
+        <div class="signupbox">
+            <a style="text-decoration:none" href="/Astral_Travels_Login.html" class="signout">Sign-out</a><br>
+            <center>
+                    <img border="0" alt="Group 292.png" src="Group 292.png" class="flightdetails">
+            </center>
+        </div>
+
+        <center>
+        <button class="trigger">Get Flight Alerts</button>
+            <div class="modal">
+                <div class="modal-content"></div>
+                    <span class="close-button"></span>
+                    <br>
+                    <center>
+                        <img border="0" src="Group 297.png" class="checkmark">
+                    </center>
+                    <br>
+                    <p>
+                        <div class="description">Success!<br>You'll be receiving flight alerts on your e-mail. Make sure to check your e-mail for the updates of your flight.</div>
+                    </p>
+                    <br>
+                    <br>
+                    <form action="/Astral_Travels_Flight_Alerts_Success.html">
+                        <center><input type="submit" name="" value="OK" class="ok"></center>
+                    </form>
+                    <!-- <button >CANCEL</a> -->
+                    <!-- <center><img src="Group 296.png" class="allowalerts"></center> -->
+                </div>
+            </div>
+        </center>
+
+        <center>
+            <script>
+                var modal = document.querySelector(".modal");
+                var trigger = document.querySelector(".trigger");
+                var closeButton = document.querySelector(".close-button");
+
+                function toggleModal() {
+                    modal.classList.toggle("show-modal");
+                }
+                    
+                function windowOnClick(event) {
+                    if (event.target === modal) {
+                        toggleModal();
+                    }
+                }
+
+                    
+                trigger.addEventListener("click", toggleModal);
+                closeButton.addEventListener("click", toggleModal);
+                window.addEventListener("click", windowOnClick);
+            </script>
+        </center>
+
+        <form action="/Astral_Travels_Home_Dashboard.html">
+            <center><input type="submit" name="" value="Home" class="home"></center>
+        </form>
+       
+        </div>
+    </body>
+</html>

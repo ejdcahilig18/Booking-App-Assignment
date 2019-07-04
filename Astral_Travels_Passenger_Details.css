@@ -62,6 +62,15 @@ input.firstname,input.lastname,input.emailaddress,input.contactnumber,input.seat
     font-weight: bold;
     text-align: center;
 }
+
+a.back{
+  color: white;
+  font-size: 10px;
+  font-family: Segoe UI;
+  font-weight: Bold;
+  float: left;
+}
+
 /* 
 .navbar {
     position: fixed;
