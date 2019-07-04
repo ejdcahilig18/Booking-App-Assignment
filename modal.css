@@ -1,9 +1,11 @@
-.modal {
-    position: fixed;
+.modal{
+    margin: auto;
+    display: block;
+    position: relative;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 375px;
+    height: 1148px;
     background-color: #BCE0FD;
     opacity: 0;
     visibility: hidden;
@@ -11,6 +13,10 @@
     transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
 }
 
+img.seats{
+    width: 253px;
+    height: 35px;
+}
 
 .close-button {
     float: right;
@@ -27,6 +33,7 @@
 }
 
 .show-modal {
+    position: center;
     opacity: 1;
     visibility: visible;
     transform: scale(1.0);
